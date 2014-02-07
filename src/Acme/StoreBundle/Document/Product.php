@@ -34,7 +34,7 @@ class Product
       *     }
       * )
       */
-     private $tags = array();
+    private $tags = [];
     public function __construct()
     {
         $this->tags = new \Doctrine\Common\Collections\ArrayCollection();
